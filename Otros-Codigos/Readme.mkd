@@ -1,0 +1,22 @@
+# Evaluador de expresiones
+
+El programa evaluador de expresiones tiene como objetivo convertir expresiones infijas a postfijas, El main se encuentra en pila.c y se ejecuta en un bucle infinito para hacer cuantas operaciones se quieran sin necesidad de cerrar la terminal.
+
+Autores: Eli Jafet Garcia Aguilar, Brenda Sanchez Vazquez, David Benitez Muñoz.
+
+## pila.c
+
+Contiene el main de programa, en el cual llama a las funciones que se encuentran en Expresion.c
+
+## Expresion.c
+
+Contiene las funciones principales, las cuales nos permiten verificar la profundidad de anudamiento, convertir una expresión de infijo a postfijo, así como también evaluar la expresión.
+
+## pila.h
+
+Contiene el código fuente que nos permite manipular una estructura de datos pila, la cual es usada en Expresion.c
+
+### compilando en terminal
+
+`gcc -o main *.c`
+`./main`
