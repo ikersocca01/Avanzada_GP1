@@ -1,5 +1,7 @@
 #include "pila.h"
 #include <stdlib.h>
+#define NL putchar('\n')
+#define pause system("pause")
 
 Pila* crearPila() {
     Pila* pila = (Pila*)malloc(sizeof(Pila));
